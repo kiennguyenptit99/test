@@ -1,6 +1,6 @@
 .header{
     height: 50px;
-    background-color: blue;
+    background-color: #1d90ff;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@
     text-decoration: none;
     line-height: 50px;
     margin-top: 10px;
-    background-color: #dfc6c6;
+    background-color: #f8f9fa;
     padding: 0 15px;
     color: #333;
 }
