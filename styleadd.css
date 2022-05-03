@@ -1,0 +1,47 @@
+.header{
+    width: 100%;
+    top: 0;
+    height: 50px;
+    background-color: #1d90ff;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    margin-top: 15px;
+}
+.input-search{
+    padding: 12px 5px;
+    width: 100%;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 0 5px;
+}
+.form-search__select{
+    margin-top: 20px;
+}
+.checkbox{
+    padding-left: 10px;
+}
+.checkbox .checkbox-icon{
+    margin-left: 50px;
+}
+button{
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px 0;
+    background-color: #29a645;
+    color: #fff;
+    border: none;
+}
+@media (max-width: 768px) {
+    .header__icon{
+        margin-left: -25px !important;
+        margin-right: 25px !important;
+    }
+}
