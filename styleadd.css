@@ -11,6 +11,9 @@
 p{
     margin-top: 15px;
 }
+.header__icon a i{
+    color: #fff;
+}
 .input-search{
     padding: 12px 5px;
     width: 100%;

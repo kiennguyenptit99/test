@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./fontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="styleuser.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app-main">
+        <div class="container-fuild">
+            <div class="header">
+                <div class="header__icon">
+                    <a href="index.html"> <i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="header__label">Quản lý người dùng</div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-search__select">
+                <input class="input-search" type="text" placeholder="Tìm kiếm người dùng" />
+                <div data-toggle="modal" data-target="#staticBackdrop">
+                    <i class="fa-solid fa-arrow-down-short-wide"></i>
+                </div>
+            </div>
+            <table class="table table-striped table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Họ tên</th>
+                        <th scope="col">Số điện thoại</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">971</th>
+                        <td>Check hai mot</td>
+                        <td>0983671271</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">970</th>
+                        <td>Thanh huyen</td>
+                        <td>0349484847</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">969</th>
+                        <td>Thuy Hai Hai</td>
+                        <td>0336133003</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">968</th>
+                        <td>Linh</td>
+                        <td>0964752826</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Tìm kiếm nâng cao</h5>
+                        <input class="input-search-modal" type="text" placeholder="Tìm kiếm người dùng" />
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-icon">
+                            <p> Lọc trạng thái:</p>
+                            <button>Hoạt động</button>
+                            <button>Tạm khoá</button>
+                        </div>
+                        <div class="modal-icon">
+                            <p> Lọc tài khoản:</p>
+                            <button>Thường</button>
+                            <button>Đã vay tiền</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Áp dụng</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Bỏ Lọc</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
