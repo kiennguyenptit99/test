@@ -42,16 +42,4 @@
     text-decoration: none;
     padding: 15px 0 0 12px;
 }
-@media (max-width: 768px){
-    .container {
-        width: 365px;
-    }
-    .search__input{
-        width: calc(100% - 16px);
-    }
-    .main .main__search i{
-        margin-left: 5px;
-        color: #fff;
-    }
-}
 
