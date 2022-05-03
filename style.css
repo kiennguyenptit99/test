@@ -42,7 +42,7 @@
     text-decoration: none;
     padding: 15px 0 0 12px;
 }
-@media (max-width: 575px){
+@media (max-width: 768px){
     .container {
         width: 365px;
     }
