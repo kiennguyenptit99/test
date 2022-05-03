@@ -8,11 +8,11 @@
     justify-content: space-around;
     align-items: center;
 }
-p{
-    margin-top: 15px;
-}
 .header__icon a i{
     color: #fff;
+}
+p{
+    margin-top: 15px;
 }
 .input-search{
     padding: 12px 5px;
