@@ -9,6 +9,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.header__icon a i{
+    color: #fff;
+}
 .form-search{
     margin-top: 10px;
 }
